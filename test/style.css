@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  background-color: salmon;
+  justify-content: center;
+  padding: 20px;
+}
+
+body {
+  font-size: 30px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 1fr;
+}
+
+.mozzarella {
+  padding-top: 25px;
+  background-color: dodgerblue;
+  height: 350px;
+}
+
+.cheese {
+}
+
+p::first-letter {
+  color: red;
+  font-size: 64px;
+}
+
+p:nth-last-child(3) {
+font-family: helvetica;
+font-size: 18px;
+}
+
+[title~=cool] {
+  background-color: yellow;
+  padding: 30px;
+}
